@@ -6,7 +6,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
   
 ## Team 
 <_each team member clones repo and then edits/replace with their name below_>
-- MEMBER01
+- Eldwin Zhong
 - MEMBER02
 - MEMBER03
 - MEMBER04
@@ -21,8 +21,8 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 ## How to access it or run it  <_add when applicable_>
 
 1. Clone the repository and go to the root directory.
-2.  
-3.  
+2. git clone [repo URL] [directory name] and go into directory
+3. 
 4.  
 
 ## Known bugs and disclaimers
