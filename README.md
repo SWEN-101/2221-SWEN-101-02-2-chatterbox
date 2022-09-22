@@ -1,16 +1,24 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8512044&assignment_repo_type=AssignmentRepo)
-# Project Name: _____ _replace with your particular project name and  type_ _____
+# Project Name: Who What Where App (WWWapp)
 # Modify this document to expand any and all sections that are applicable for a better understanding from your users/testers/collaborators (remove this comment and other instructions areas for your FINAL release)
 
 An online E-store system built in github.io .. etc. <_replace with other platform requirements_>
   
 ## Team 
 <_each team member clones repo and then edits/replace with their name below_>
+<<<<<<< HEAD
 - MEMBER01
 - MEMBER02
 - MEMBER03
 - MEMBER04
 - Christopher Obando
+=======
+- Eldwin Zhong
+- Thomas Neruda
+- Aryan Patel
+- Kevin Zheng
+- Christopher Obando
+>>>>>>> 5f12930b48c1dd27e99e85245d675d1b51972183
 
 
 ## Prerequisites  <_add anything else that applies_>
@@ -22,8 +30,8 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 ## How to access it or run it  <_add when applicable_>
 
 1. Clone the repository and go to the root directory.
-2.  
-3.  
+2. git clone [repo URL] [directory name] and go into directory
+3. 
 4.  
 
 ## Known bugs and disclaimers
