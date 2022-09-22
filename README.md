@@ -10,6 +10,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 - MEMBER02
 - MEMBER03
 - MEMBER04
+- Christopher Obando
 
 
 ## Prerequisites  <_add anything else that applies_>
