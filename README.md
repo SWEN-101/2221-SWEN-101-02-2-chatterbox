@@ -6,20 +6,12 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
   
 ## Team 
 <_each team member clones repo and then edits/replace with their name below_>
-<<<<<<< HEAD
-- MEMBER01
-- MEMBER02
-- MEMBER03
-- MEMBER04
-- Christopher Obando
-=======
+
 - Eldwin Zhong
 - Thomas Neruda
 - Aryan Patel
 - Kevin Zheng
 - Christopher Obando
->>>>>>> 5f12930b48c1dd27e99e85245d675d1b51972183
-
 
 ## Prerequisites  <_add anything else that applies_>
 
