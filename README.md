@@ -9,7 +9,8 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 - Eldwin Zhong
 - Thomas Neruda
 - Aryan Patel
-- MEMBER04
+- Kevin Zheng
+- MEMBER05
 
 
 ## Prerequisites  <_add anything else that applies_>
