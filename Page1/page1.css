@@ -1,0 +1,14 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    border: 5px solid rgb(111, 176, 214);
+  }
+.search{
+    background-color: rgb(218, 212, 212);
+    border: 2px black;
+    margin: 20px;
+    align-items: center;
+}
