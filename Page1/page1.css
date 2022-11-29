@@ -22,7 +22,36 @@
   border: 10px solid rgb(129, 155, 226);
 }
 .heart{
-  max-width:10%;
+  float: left;
+  max-width:20%;
   height:auto;
+}
+.comment{
+  float: left;
+  max-width:25%;
+  height:auto;
+  margin-left: -80%;
+}
+.send{
+  float: left;
+  max-width:13%;
+  margin-left: -150%;
+ 
+}
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.name{
+  border: 10px solid rgb(129, 155, 226);
+}
+.pfp{
+  max-width:10%;
   margin-right: 80%;
 }
