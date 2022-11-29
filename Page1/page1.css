@@ -1,5 +1,7 @@
 .searchbar{
     width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     text-align:center;
 }
 .post {
@@ -7,8 +9,8 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 50%;
-    border: 20px solid rgb(129, 155, 226);;
+    width: 56%;
+    border: 20px solid #a7c3a1;
   }
 .words{
   padding-left: 5%;
@@ -19,7 +21,7 @@
 .center{
   max-width:100%;
   height:auto;
-  border: 10px solid rgb(129, 155, 226);
+  border: 10px solid #a7c3a1;
 }
 .heart{
   float: left;
@@ -49,9 +51,11 @@
   display: table;
 }
 .name{
-  border: 10px solid rgb(129, 155, 226);
+  border: 10px solid #a7c3a1;
 }
 .pfp{
   max-width:10%;
   margin-right: 80%;
+  margin-bottom: 1%;
+  margin-top:1%
 }
