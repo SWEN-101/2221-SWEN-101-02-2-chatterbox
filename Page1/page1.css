@@ -10,13 +10,14 @@
     margin-right: auto;
     text-align: center;
     width: 56%;
-    border: 20px solid #a7c3a1;
+    border: 10px solid #a7c3a1;
   }
 .words{
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
+  border: 10px solid #a7c3a1;
 }
 .center{
   max-width:100%;
