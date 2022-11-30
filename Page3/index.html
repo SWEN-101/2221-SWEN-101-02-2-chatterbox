@@ -18,10 +18,13 @@
             <br>
             <b>
                 <!--Add w3-text-black w3-green to the current page-->
-                <a class=" w3-border-top w3-border-bottom" href="#">Post</a>
-                <a class=" w3-border-bottom" href="#">Friend List</a>
-                <a class="w3-text-black w3-green w3-border-bottom" href="#">SERVER 1</a>
-                <a class=" w3-border-bottom" href="#">Options</a>
+                <a class=" w3-border-top w3-border-bottom" href="../Page1">Post</a>
+                <a class=" w3-border-bottom" href="../Page2">Friend List</a>
+                <a class="w3-text-black w3-green w3-border-bottom" href="../Page5">Server List</a>
+                <a class=" w3-text-black w3-border-bottom" href="../Page3" style="background-color:#5aa0a6">Server 1 </a>
+                <a class=" w3-text-black w3-border-bottom" href="../Page3" style="background-color:#436f73">Server 2</a>
+                <a class=" w3-text-black w w3-border-bottom" href="../Page3" style="background-color:#436f73">Server 3</a>
+                <a class=" w3-border-bottom" href="../Page7">Options</a>
             </b>
         </nav>
         
@@ -35,20 +38,35 @@
         
         <div class="w3-container" style="margin-left:20%">
             <br>
-            <div class="w3-container" style="height:190px;background-color:#ebebeb"></div>
-            <div class="w3-container" style="background-color:#ebebeb">
-                <p>9:50 PM User 1: Hello Hello</p>
-                <p>10:02 PM User 2: Whats up</p>
-                <p>10:03 PM User 3: Nothing much</p>
-                <p>10:03 PM User 2: Wanna grab something to eat</p>
-                <p>10:04 PM User 3: Im down for some pasta</p>
-                <p>10:05 PM User 1: Bet lets go to ritz and get the pasta bowl</p>
+            <div class="w3-container" style="background-color:white" id="chat">
+                <p>8:50 PM User 1: Hello Hello anybody here rn</p>
+                <p>9:02 PM User 2: Sorry I was a bit busy talking to somebody else. What's up?</p>
+                <p>9:03 PM User 3: Knock knock Im here</p>
+                <p>9:03 PM User 1: You guys wanna grab something to eat</p>
+                <p>9:04 PM User 3: Im down for anything :)</p>
+                <p>9:06 PM User 2: I'm kinda craving some pizza rn.</p>
+                <p>9:06 PM User 1: Bet lets go to ritz and get the pasta bowl.</p>
+                <p>9:07 PM User 3: Dude its 9 ritz is def closed o-o</p>
+
             </div>
-            <div class="w3-container w3-border" style = "background-color:#C1C6C3">
-                <input type="text" style="width:470px">
+            <div class="w3-container w3-border" style = "background-color:white">
+                <input class="w3-input w3-border" type="text" placeholder="Type here..." id="input">
             </div>
             <br>
         </div>
 </body>
+
+<script>
+    var input = document.getElementById("input");
+    input.addEventListener("keypress", function(event){
+        if(event.key == "Enter")
+        {
+            event.preventDefault();
+            var div = document.getElementById("chat");
+            div.innerHTML += "<p> 9:07 PM User 4: " + input.value + "</p>";
+            input.value = "";
+        }
+    });
+</script>
     
 </html>
