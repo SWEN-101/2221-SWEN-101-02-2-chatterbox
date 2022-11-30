@@ -1,11 +1,10 @@
-<!--AUTHOR: ARYAN PATEL-->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>WWWAPP - Friends List</title>
+    <title>WWWAPP - Add Comment</title>
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body style="background: rgba(89,89,89,1);">
@@ -15,33 +14,83 @@
                 style="width:70%;"></img></center>
         <br>
         <b>
-            <!--Add w3-text-blacsk w3-green to the current page-->
-            <a class=" w3-border-top w3-border-bottom" href="../Page1">Post</a>
-            <a class="w3-text-black w3-green w3-border-bottom" href="../Page2">Friend List</a>
-            <a class=" w3-border-bottom" href="../Page5">Server List</a>
+            <!--Add w3-text-black w3-green to the current page-->
+            <a class="w3-text-black w3-green  w3-border-top w3-border-bottom" href="../Page1">Post</a>
+            <a class=" w3-border-bottom" href="../Page2">Friend List</a>
+            <a class="  w3-border-bottom" href="../Page5">Server List</a>
+            <a class=" w3-text-black w3-border-bottom" href="../Page3" style="background-color:#436f73">Server 1 </a>
+            <a class=" w3-text-black w3-border-bottom" href="../Page3" style="background-color:#436f73">Server 2</a>
+            <a class=" w3-text-black w w3-border-bottom" href="../Page3" style="background-color:#436f73">Server 3</a>
             <a class=" w3-border-bottom" href="../Page7">Options</a>
         </b>
     </nav>
     <div class="w3-container" style="margin-left:20%">
-        <p><center><h1> COMMENTS </h1></center></p>
-    </div>
-    <br>
-</div>
+        <br>
+        <div class="w3-container w3-white">
+            <p> Welcome back, <b>USERNAME</b>!</p>
+            <p> You have <b>3</b> new messages.</p>
 
-<div class="w3-container" style="margin-left:20%">
-    <br>
-    <div class="w3-container" style="height:190px;background-color:#ebebeb"></div>
-    <div class="w3-container" style="background-color:#ebebeb">
-        <p>  Insert Comment Below in TextBox  </p>
-        <p>11:00 PM User 1: Wow!</p>
-        <p>10:10 PM User 2: This is pretty cool</p>
-        <p>10:56 PM User 3: Nice</p>
+        </div>
+        <br>
+        <div class="w3-container w3-white">
+            <h1>Comments</h1>
+            <input class="w3-input w3-border" id="input" type="text" placeholder="Add your thoughts...">
+            <div id="posts">
+                <br>
+                <div class="w3-container w3-white w3-border">
+                    <img src="https://media.discordapp.net/attachments/1018584940658573343/1047328463968813147/240CCF6C-F214-46F7-8FD5-B00EF8EDE30B.png"
+                        style="width: 35px;padding-bottom: 10px;padding-top: 10px;vertical-align:middle"></img>
+                    <span><b>Ben</b></span>
+                    <p>Love this!</p>
+                    <i class="fa fa-heart w3-text-red" aria-hidden="true"></i>
+                    <i class="fa fa-share w3-text-grey" aria-hidden="true"></i>
+                </div>
+                <br>
+                <div class="w3-container w3-white w3-border">
+                    <img src="https://media.discordapp.net/attachments/1018584940658573343/1047328463968813147/240CCF6C-F214-46F7-8FD5-B00EF8EDE30B.png"
+                        style="width: 35px;padding-bottom: 10px;padding-top: 10px;vertical-align:middle"></img>
+                    <span><b>Nick</b></span>
+                    <p>You should add me!</p>
+                    <i class="fa fa-heart w3-text-red" aria-hidden="true"></i>
+                    <i class="fa fa-share w3-text-grey" aria-hidden="true"></i>
+                </div>
+                <br>
+                <div class="w3-container w3-white w3-border">
+                    <img src="https://media.discordapp.net/attachments/1018584940658573343/1047328463968813147/240CCF6C-F214-46F7-8FD5-B00EF8EDE30B.png"
+                        style="width: 35px;padding-bottom: 10px;padding-top: 10px;vertical-align:middle"></img>
+                    <span><b>John</b></span>
+                    <p>Hello</p>
+                    <i class="fa fa-heart w3-text-grey" aria-hidden="true"></i>
+                    <i class="fa fa-share w3-text-grey" aria-hidden="true"></i>
+                </div>
+                <br>
+            </div>
+        </div>
     </div>
-    <div class="w3-container w3-border" style = "background-color:#C1C6C3">
-        <input type="text" style="width:470px">
-    </div>
-    <br>
-</div>
 </body>
+
+<script>
+    var input = document.getElementById("input");
+    input.addEventListener("keypress", function (event) {
+        if (event.key == "Enter") {
+            event.preventDefault();
+            var div = document.getElementById("posts");
+            div.innerHTML += 
+            `
+            <div class="w3-container w3-white w3-border">
+                    <img src="https://media.discordapp.net/attachments/1018584940658573343/1047328463968813147/240CCF6C-F214-46F7-8FD5-B00EF8EDE30B.png"
+                        style="width: 35px;padding-bottom: 10px;padding-top: 10px;vertical-align:middle"></img>
+                    <span><b>User 4</b></span>
+                    <p>` + input.value +`</p>
+                    <i class="fa fa-heart w3-text-grey" aria-hidden="true"></i>
+                    <i class="fa fa-share w3-text-grey" aria-hidden="true"></i>
+                </div>
+                <br>
+            `
+            input.value = "";
+        }
+    });
+</script>
+
 
 </html>
