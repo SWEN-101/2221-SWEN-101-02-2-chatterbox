@@ -2,6 +2,7 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>WWWAPP - Friends List</title>
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
@@ -17,35 +18,56 @@
         <br>
         <b>
             <!--Add w3-text-black w3-green to the current page-->
-            <a class=" w3-border-top w3-border-bottom" href="../Page1">Post</a>
-            <a class="w3-text-black w3-green w3-border-bottom" href="../Page2">Friend List</a>
+            <a class=" w3-text-black w3-green w3-border-top w3-border-bottom" href="../Page1">Post</a>
+            <a class=" w3-border-bottom" href="../Page2">Friend List</a>
             <a class=" w3-border-bottom" href="../Page5">Server List</a>
             <a class=" w3-border-bottom" href="../Page7">Options</a>
         </b>
     </nav>
-    <div class = "searchbar">
-        
-        <input class="form-input" data-search-quick="" name="search_query" id="search_query" data-error-message="Search field cannot be empty." placeholder="Search..." autocomplete="off" size=50>
-    </div>
-    <div class = "post">
-        <div class = "words">
-            <input class="form-input" data-search-quick="" name="search_query" id="search_query" data-error-message="Search field cannot be empty." placeholder="Share your words of wisdom..." autocomplete="off" size=40>
-    </div>
-        <div class = "name">
-            <img src="https://media.discordapp.net/attachments/1018584940658573343/1037806513059790919/unknown.png" alt = "pfp" class = "pfp"></img> 
+
+
+    <div class="w3-container" style="margin-left:20%">
+        <br>
+        <div class="w3-container w3-white">
+            <p> Welcome back, <b>USERNAME</b>!</p>
+            <p> You have <b>3</b> new messages.</p>
         </div>
-        <img src="https://petcityvet.com/wp-content/uploads/2022/08/Puppy-As-A-Pet.jpg" alt="Puppy" class ="center">
-        <div class = "row">
-        <div class = "column">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png" alt ="heart" class = "heart">
-    </div>
-    <div class = "column">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Speech_bubble.svg/2560px-Speech_bubble.svg.png" alt ="comment" class = "comment">
-    </div>
-    <div class = "column">
-        <img src="https://i0.wp.com/oneminutemacman.com/wp-content/uploads/2018/06/sharing_icon_trimmed.png?fit=268%2C353&ssl=1" alt ="send" class = "send">
-    </div>
+        <br>
+        <div class="w3-container w3-white">
+            <h1>Friend Activity </h1>
+            <input class="w3-input w3-border" type="text" placeholder="Share your words of wisdom...">
+            <br>
+            <div class="w3-container w3-white w3-border">
+                <img src="https://media.discordapp.net/attachments/1018584940658573343/1037806513059790919/unknown.png"
+                    style="width:10%;padding-bottom: 10px;padding-top: 10px;vertical-align:middle"></img>
+                <span><b>Ben</b></span>
+                <br>
+                <img class="w3-round" style="width:100%"
+                    src="https://petcityvet.com/wp-content/uploads/2022/08/Puppy-As-A-Pet.jpg" alt="Puppy">
+                <a href="#">
+                    <i class="fa fa-heart w3-text-red" aria-hidden="true"></i>
+                    <i class="fa fa-comment w3-text-grey" aria-hidden="true"></i>
+                    <i class="fa fa-share w3-text-grey" aria-hidden="true"></i>
+                </a>
+            </div>
+            <br>
+            <div class="w3-container w3-white w3-border">
+                <img src="https://media.discordapp.net/attachments/1018584940658573343/1037806513059790919/unknown.png"
+                    style="width:10%;padding-bottom: 10px;padding-top: 10px;vertical-align:middle"></img>
+                <span><b>Ben</b></span>
+                <br>
+                <img class="w3-round" style="width:100%"
+                    src="https://petcityvet.com/wp-content/uploads/2022/08/Puppy-As-A-Pet.jpg" alt="Puppy">
+                <a href="#">
+                    <i class="fa fa-heart w3-text-grey" aria-hidden="true"></i>
+                    <i class="fa fa-comment w3-text-grey" aria-hidden="true"></i>
+                    <i class="fa fa-share w3-text-grey" aria-hidden="true"></i>
+                </a>
+            </div>
+            <br>
         </div>
     </div>
+
 </body>
+
 </html>
